@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { NutritionAnalysis, UpgradedRecipe, HealthScoreAnalysis } from './types';
 import { fetchNutritionInfo } from './services/geminiService';
 import { FoodInputForm } from './components/FoodInputForm';
